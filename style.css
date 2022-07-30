@@ -24,23 +24,19 @@
 
 /* Make background cover the whole screen */
 
-.background {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0px;
-    width: auto;
-    height: auto;
-    overflow: hidden;
-    z-index: -1;
-}
-
 body {
     margin: 0;
     padding: 0;
     height: 100%;
     overflow: hidden;
+    background: url(background.svg) no-repeat;
+    background-size: 100vw auto;
+}
+
+@media (orientation: portrait) {
+    body {
+        background-size: 100vh auto;
+    }
 }
 
 button {
