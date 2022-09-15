@@ -1,0 +1,599 @@
+{
+    "Chams": {
+        "settings": {},
+        "settingsKey": {},
+        "category": "RENDER",
+        "enabled": false,
+        "key": 0
+    },
+    "Spoofer": {
+        "settings": {
+            "Mode": "Lunar"
+        },
+        "settingsKey": {
+            "Mode+ModeValue": [
+                "Lunar",
+                "Geyser",
+                "Forge"
+            ]
+        },
+        "category": "MISC",
+        "enabled": true,
+        "key": 0
+    },
+    "AntiCrash": {
+        "settings": {},
+        "settingsKey": {},
+        "category": "MISC",
+        "enabled": false,
+        "key": 0
+    },
+    "Insults": {
+        "settings": {
+            "Mode": "Sigma"
+        },
+        "settingsKey": {
+            "Mode+ModeValue": [
+                "Sigma"
+            ]
+        },
+        "category": "MISC",
+        "enabled": false,
+        "key": 0
+    },
+    "Phase": {
+        "settings": {
+            "Mode": "HCF"
+        },
+        "settingsKey": {
+            "Mode+ModeValue": [
+                "HCF",
+                "Dev"
+            ]
+        },
+        "category": "WORLD",
+        "enabled": false,
+        "key": 0
+    },
+    "Animations": {
+        "settings": {
+            "Spin": false,
+            "Mode": "Push",
+            "X 1": 0,
+            "Z 1": 0,
+            "Y 2": 1,
+            "X 3": 0,
+            "Scale": 0.4,
+            "Y 1": 1,
+            "X 2": 0,
+            "Z 3": 1,
+            "Y 4": 0,
+            "Angle 1": 45,
+            "Restore": false,
+            "Z 2": 0,
+            "Y 3": 0,
+            "X 4": 1,
+            "Angle 2": -20,
+            "Angle 3": -20,
+            "Z 4": 0,
+            "Angle 4": -80,
+            "Push": 150,
+            "Spin Angle": 360
+        },
+        "settingsKey": {
+            "Restore+BooleanValue": false,
+            "Z 3+NumberValue": "-100.0+100.0+FLOAT",
+            "Mode+ModeValue": [
+                "1.7",
+                "Spin",
+                "Push",
+                "Custom"
+            ],
+            "Spin+BooleanValue": false,
+            "Y 2+NumberValue": "-100.0+100.0+FLOAT",
+            "Y 3+NumberValue": "-100.0+100.0+FLOAT",
+            "Z 4+NumberValue": "-100.0+100.0+FLOAT",
+            "Angle 1+NumberValue": "-100.0+360.0+FLOAT",
+            "X 1+NumberValue": "-100.0+100.0+FLOAT",
+            "Angle 2+NumberValue": "-100.0+360.0+FLOAT",
+            "Angle 4+NumberValue": "-100.0+360.0+FLOAT",
+            "Z 1+NumberValue": "-100.0+100.0+FLOAT",
+            "Y 1+NumberValue": "-100.0+100.0+FLOAT",
+            "Z 2+NumberValue": "-100.0+100.0+FLOAT",
+            "Angle 3+NumberValue": "-100.0+360.0+FLOAT",
+            "Scale+NumberValue": "0.1+100.0+FLOAT",
+            "Spin Angle+NumberValue": "0+360+INTEGER",
+            "X 2+NumberValue": "-100.0+100.0+FLOAT",
+            "Y 4+NumberValue": "-100.0+100.0+FLOAT",
+            "Push+NumberValue": "1.0+150.0+FLOAT",
+            "X 3+NumberValue": "-100.0+100.0+FLOAT",
+            "X 4+NumberValue": "-100.0+100.0+FLOAT"
+        },
+        "category": "RENDER",
+        "enabled": true,
+        "key": 0
+    },
+    "Time": {
+        "settings": {
+            "Time": 16000
+        },
+        "settingsKey": {
+            "Time+NumberValue": "0+24000+LONG"
+        },
+        "category": "WORLD",
+        "enabled": false,
+        "key": 0
+    },
+    "Step": {
+        "settings": {
+            "Mode": "Vanilla",
+            "Height": 1
+        },
+        "settingsKey": {
+            "Height+NumberValue": "1+10+INTEGER",
+            "Mode+ModeValue": [
+                "Vanilla"
+            ]
+        },
+        "category": "MOVEMENT",
+        "enabled": false,
+        "key": 0
+    },
+    "Scaffold": {
+        "settings": {},
+        "settingsKey": {},
+        "category": "PLAYER",
+        "enabled": false,
+        "key": 0
+    },
+    "Fly": {
+        "settings": {
+            "Speed": 1,
+            "Mode": "Vanilla",
+            "Bobbing": true
+        },
+        "settingsKey": {
+            "Mode+ModeValue": [
+                "Vanilla",
+                "Dev",
+                "PvPGym",
+                "Zonecraft",
+                "Vulcan",
+                "Vulcan2"
+            ],
+            "Speed+NumberValue": "0.1+6.0+DOUBLE",
+            "Bobbing+BooleanValue": true
+        },
+        "category": "MOVEMENT",
+        "enabled": false,
+        "key": 34
+    },
+    "AntiVanish": {
+        "settings": {},
+        "settingsKey": {},
+        "category": "MISC",
+        "enabled": false,
+        "key": 0
+    },
+    "Translator": {
+        "settings": {},
+        "settingsKey": {},
+        "category": "MISC",
+        "enabled": false,
+        "key": 0
+    },
+    "HUD": {
+        "settings": {
+            "Target HUD": true,
+            "BPS": true,
+            "Player On Screen": false,
+            "Mode": "Standard",
+            "Session HUD": true
+        },
+        "settingsKey": {
+            "Mode+ModeValue": [
+                "Standard",
+                "Smooth"
+            ],
+            "Session HUD+BooleanValue": true,
+            "Target HUD+BooleanValue": true,
+            "BPS+BooleanValue": true,
+            "Player On Screen+BooleanValue": false
+        },
+        "category": "RENDER",
+        "enabled": true,
+        "key": 0
+    },
+    "AntiBot": {
+        "settings": {},
+        "settingsKey": {},
+        "category": "COMBAT",
+        "enabled": false,
+        "key": 0
+    },
+    "AutoPlace": {
+        "settings": {},
+        "settingsKey": {},
+        "category": "PLAYER",
+        "enabled": false,
+        "key": 35
+    },
+    "PvPBot": {
+        "settings": {
+            "CPS": 10,
+            "Range To Stop": 3.14
+        },
+        "settingsKey": {
+            "CPS+NumberValue": "1+20+INTEGER",
+            "Range To Stop+NumberValue": "1.0+3.14+DOUBLE"
+        },
+        "category": "COMBAT",
+        "enabled": false,
+        "key": 0
+    },
+    "FullBright": {
+        "settings": {},
+        "settingsKey": {},
+        "category": "MISC",
+        "enabled": false,
+        "key": 0
+    },
+    "Aura": {
+        "settings": {
+            "Block Mode": "Fake",
+            "Rotation Mode": "Smooth",
+            "1.9 Delay": false,
+            "NoSwing": false,
+            "Mode": "Switch",
+            "CPS": 14,
+            "KeepSprint": true,
+            "Range": 4.48,
+            "Rotate Range": 5,
+            "Mobs": true,
+            "Teams": false,
+            "Invisible": true,
+            "Through Walls": false,
+            "Players": true
+        },
+        "settingsKey": {
+            "Mode+ModeValue": [
+                "Switch",
+                "Lock"
+            ],
+            "Rotate Range+NumberValue": "0.2+20.0+DOUBLE",
+            "1.9 Delay+BooleanValue": false,
+            "Through Walls+BooleanValue": false,
+            "Teams+BooleanValue": false,
+            "CPS+NumberValue": "1+20+INTEGER",
+            "Players+BooleanValue": true,
+            "Range+NumberValue": "0.2+10.0+DOUBLE",
+            "Block Mode+ModeValue": [
+                "Vanilla",
+                "None",
+                "NCP",
+                "Fake"
+            ],
+            "Invisible+BooleanValue": true,
+            "KeepSprint+BooleanValue": true,
+            "Rotation Mode+ModeValue": [
+                "Bypass",
+                "Smooth",
+                "None"
+            ],
+            "Mobs+BooleanValue": true,
+            "NoSwing+BooleanValue": false
+        },
+        "category": "COMBAT",
+        "enabled": false,
+        "key": 19
+    },
+    "AutoTool": {
+        "settings": {},
+        "settingsKey": {},
+        "category": "PLAYER",
+        "enabled": true,
+        "key": 0
+    },
+    "Minehut": {
+        "settings": {
+            "Disable ADS": true,
+            "Disable lobby join messages": true,
+            "Disable voting messages": true,
+            "Disable fake ADS": true
+        },
+        "settingsKey": {
+            "Disable fake ADS+BooleanValue": true,
+            "Disable lobby join messages+BooleanValue": true,
+            "Disable voting messages+BooleanValue": true,
+            "Disable ADS+BooleanValue": true
+        },
+        "category": "MISC",
+        "enabled": false,
+        "key": 0
+    },
+    "Spammer": {
+        "settings": {
+            "Delay": 3207
+        },
+        "settingsKey": {
+            "Delay+NumberValue": "250+5000+LONG"
+        },
+        "category": "MISC",
+        "enabled": false,
+        "key": 0
+    },
+    "NoSlow": {
+        "settings": {},
+        "settingsKey": {},
+        "category": "MOVEMENT",
+        "enabled": false,
+        "key": 0
+    },
+    "Speed": {
+        "settings": {
+            "Mode": "Bhop"
+        },
+        "settingsKey": {
+            "Mode+ModeValue": [
+                "Bhop",
+                "Hycraft",
+                "Dev",
+                "Zonecraft",
+                "Astro",
+                "MMC",
+                "UwUGuard",
+                "Legit"
+            ]
+        },
+        "category": "MOVEMENT",
+        "enabled": false,
+        "key": 45
+    },
+    "Reach": {
+        "settings": {
+            "Reach": 6
+        },
+        "settingsKey": {
+            "Reach+NumberValue": "3.0+6.0+DOUBLE"
+        },
+        "category": "COMBAT",
+        "enabled": false,
+        "key": 0
+    },
+    "ESP": {
+        "settings": {
+            "Red": 0,
+            "Blue": 255,
+            "Mobs": true,
+            "Green": 255,
+            "Players": true
+        },
+        "settingsKey": {
+            "Green+NumberValue": "0+255+INTEGER",
+            "Red+NumberValue": "0+255+INTEGER",
+            "Blue+NumberValue": "0+255+INTEGER",
+            "Mobs+BooleanValue": true,
+            "Players+BooleanValue": true
+        },
+        "category": "RENDER",
+        "enabled": true,
+        "key": 0
+    },
+    "Safewalk": {
+        "settings": {},
+        "settingsKey": {},
+        "category": "MOVEMENT",
+        "enabled": false,
+        "key": 0
+    },
+    "SumoFences": {
+        "settings": {
+            "SumoFences": 1.01
+        },
+        "settingsKey": {
+            "SumoFences+NumberValue": "1.0+4.0+DOUBLE"
+        },
+        "category": "WORLD",
+        "enabled": false,
+        "key": 0
+    },
+    "Botter": {
+        "settings": {
+            "Delay": 1000
+        },
+        "settingsKey": {
+            "Delay+NumberValue": "200+5000+LONG"
+        },
+        "category": "MISC",
+        "enabled": false,
+        "key": 0
+    },
+    "DavidZar": {
+        "settings": {},
+        "settingsKey": {},
+        "category": "MISC",
+        "enabled": false,
+        "key": 0
+    },
+    "Disabler": {
+        "settings": {
+            "WarzoneMC": false,
+            "Verus": false,
+            "Hypixel Strafe": true
+        },
+        "settingsKey": {
+            "Hypixel Strafe+BooleanValue": true,
+            "Verus+BooleanValue": false,
+            "WarzoneMC+BooleanValue": false
+        },
+        "category": "MISC",
+        "enabled": false,
+        "key": 0
+    },
+    "NoBob": {
+        "settings": {},
+        "settingsKey": {},
+        "category": "RENDER",
+        "enabled": false,
+        "key": 0
+    },
+    "NoFall": {
+        "settings": {},
+        "settingsKey": {},
+        "category": "MOVEMENT",
+        "enabled": true,
+        "key": 0
+    },
+    "Velocity": {
+        "settings": {
+            "Vertical": 0,
+            "Horizontal": 0,
+            "Mode": "Astro"
+        },
+        "settingsKey": {
+            "Mode+ModeValue": [
+                "Vanilla",
+                "Astro",
+                "MMC"
+            ],
+            "Vertical+NumberValue": "0.0+100.0+DOUBLE",
+            "Horizontal+NumberValue": "0.0+100.0+DOUBLE"
+        },
+        "category": "MOVEMENT",
+        "enabled": true,
+        "key": 0
+    },
+    "TargetStrafe": {
+        "settings": {
+            "Speed": 0.28,
+            "Auto Jump": true,
+            "Mode": "LiquidBounce",
+            "On Move": true,
+            "FOV": 180,
+            "Distance": 1.78
+        },
+        "settingsKey": {
+            "Mode+ModeValue": [
+                "LiquidBounce",
+                "Dev"
+            ],
+            "FOV+NumberValue": "30+180+INTEGER",
+            "Speed+NumberValue": "0.1+1+FLOAT",
+            "Distance+NumberValue": "0.5+8+FLOAT",
+            "On Move+BooleanValue": true,
+            "Auto Jump+BooleanValue": true
+        },
+        "category": "MOVEMENT",
+        "enabled": true,
+        "key": 0
+    },
+    "AirJump": {
+        "settings": {},
+        "settingsKey": {},
+        "category": "MOVEMENT",
+        "enabled": false,
+        "key": 0
+    },
+    "AntiCheat": {
+        "settings": {},
+        "settingsKey": {},
+        "category": "MISC",
+        "enabled": false,
+        "key": 0
+    },
+    "build": "1.0",
+    "Hat": {
+        "settings": {
+            "Red": 255,
+            "Blue": 255,
+            "Spin": false,
+            "Mode": "Hanabi",
+            "Green": 255
+        },
+        "settingsKey": {
+            "Mode+ModeValue": [
+                "Hanabi"
+            ],
+            "Spin+BooleanValue": false,
+            "Green+NumberValue": "0+255+INTEGER",
+            "Red+NumberValue": "0+255+INTEGER",
+            "Blue+NumberValue": "0+255+INTEGER"
+        },
+        "category": "RENDER",
+        "enabled": true,
+        "key": 0
+    },
+    "Sprint": {
+        "settings": {
+            "Omni": false
+        },
+        "settingsKey": {
+            "Omni+BooleanValue": false
+        },
+        "category": "MOVEMENT",
+        "enabled": false,
+        "key": 0
+    },
+    "InvMove": {
+        "settings": {},
+        "settingsKey": {},
+        "category": "MOVEMENT",
+        "enabled": false,
+        "key": 0
+    },
+    "Interface": {
+        "settings": {
+            "Font Chat": false,
+            "Toggle Notifications": true,
+            "Font Mode": "Poppins",
+            "Transparent Chat": true
+        },
+        "settingsKey": {
+            "Transparent Chat+BooleanValue": true,
+            "Font Chat+BooleanValue": false,
+            "Font Mode+ModeValue": [
+                "Poppins",
+                "Arial"
+            ],
+            "Toggle Notifications+BooleanValue": true
+        },
+        "category": "RENDER",
+        "enabled": false,
+        "key": 0
+    },
+    "Derp": {
+        "settings": {
+            "Pitch Speed": 1,
+            "Through Head": false,
+            "Yaw Speed": 1,
+            "Mode": "Random",
+            "Pitch": false,
+            "Yaw": true
+        },
+        "settingsKey": {
+            "Mode+ModeValue": [
+                "Random",
+                "Spin"
+            ],
+            "Pitch+BooleanValue": false,
+            "Yaw Speed+NumberValue": "0.1+10.0+FLOAT",
+            "Yaw+BooleanValue": true,
+            "Through Head+BooleanValue": false,
+            "Pitch Speed+NumberValue": "0.1+10.0+FLOAT"
+        },
+        "category": "PLAYER",
+        "enabled": false,
+        "key": 0
+    },
+    "AutoArmor": {
+        "settings": {
+            "Delay": 100
+        },
+        "settingsKey": {
+            "Delay+NumberValue": "0+1000+LONG"
+        },
+        "category": "PLAYER",
+        "enabled": false,
+        "key": 0
+    }
+}
