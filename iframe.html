@@ -36,6 +36,10 @@
             -webkit-transition: all .3s cubic-bezier(0, 0, .2, 1);
             transition: all .3s cubic-bezier(0, 0, .2, 1);
         }
+
+        :root {
+            color-scheme: only dark;
+        }
     </style>
 </head>
 
@@ -421,7 +425,7 @@
                         min = value2.split("+")[0];
                         max = value2.split("+")[1];
                     }
-                    switch(type) {
+                    switch (type) {
                         case "BooleanValue":
                             addSettingToModule(key, type, name, config[key].settings[value]);
                             break;
